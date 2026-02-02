@@ -72,7 +72,7 @@ http://localhost:3000
 
 ## Sobre o Projeto
 - Projeto desenvolvido para fins acadêmicos na disciplina de Sistemas Distribuídos (UNIFEI).
-- Autor: [Seu Nome Aqui]
+- Autor: , Felipe Fernandes, Bruno Batista, Rodrigo Pereira
 - Engenharia de Computação - UNIFEI
 
 ---
