@@ -31,12 +31,14 @@ cd JogoForca-WebService-Express
 npm install
 ```
 
+
 ### 3. Executando o Servidor
 
-O servidor deve ser iniciado a partir da pasta raiz do projeto (onde está o `package.json`).
+**Importante:** O servidor só funciona corretamente se iniciado a partir da pasta `src` do projeto, pois os caminhos relativos dependem disso.
 
 ```sh
-npm start
+cd src
+node index.js
 ```
 
 Por padrão, o servidor roda na porta **3000**.
@@ -65,7 +67,7 @@ http://localhost:3000
 5. Use sempre o IP mostrado pelo terminal onde o servidor está rodando (especialmente se estiver usando o terminal integrado do VS Code).
 
 ### 5. Observações Importantes
-- O servidor pode ser iniciado pelo terminal integrado do VS Code ou pelo terminal do sistema operacional, sempre na pasta raiz do projeto.
+- O servidor pode ser iniciado pelo terminal integrado do VS Code ou pelo terminal do sistema operacional.
 - O IP a ser usado para acesso externo deve ser o mostrado pelo comando `ipconfig` no terminal onde o servidor está rodando.
 - O jogo suporta múltiplos jogadores simultâneos na mesma rede.
 - Se estiver usando WSL, Docker ou múltiplas interfaces de rede, confira qual IP está realmente ativo na sua rede local.
